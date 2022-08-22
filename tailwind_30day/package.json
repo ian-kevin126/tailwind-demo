@@ -1,0 +1,19 @@
+{
+  "name": "tailwind_30day",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "tailwindcss -i ./src/css/style.css -o ./dist/tailwind.css --watch",
+    "build": "NODE_ENV=production tailwindcss -i ./src/css/style.css -o ./dist/tailwind.css --minify"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.2.6",
+    "postcss": "^8.3.0",
+    "tailwindcss": "^2.1.4"
+  }
+}
